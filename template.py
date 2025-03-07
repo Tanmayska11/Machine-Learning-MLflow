@@ -19,12 +19,12 @@ list_of_files = [
     f"src/{project_name}/entity/config_entity.py", 
     f"src/{project_name}/constants/__init__.py", # Constants for the project
     "config/config.yaml", # Configuration file for the project
-    "requirements.txt", # List of dependencies
     "schema.yaml", # Schema for data validation
     "params.yaml", 
     "main.py", # Main entry point for the project
     "app.py", #Flask/Django FastAPI application for deploying the model.
     "Dockerfile", # Dockerfile for containerizing the application
+    "requirements.txt", # List of dependencies
     "setup.py", # Setup file for packaging the application
     "research/trials.ipynb", # Jupyter notebook for conducting hyperparameter tuning
     "templates/index.html" # HTML template for the Flask/Django FastAPI application
