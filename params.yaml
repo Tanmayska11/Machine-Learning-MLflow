@@ -1,1 +1,7 @@
-key: value
+ElasticNet:
+  alpha: 0.5
+  l1_ratio: 0.7
+
+  # we choose elastic model so we here mention the parameters
+  # suppose iif we is the another model like random forest or decision tree the 
+  # we mentioned that parameters here
